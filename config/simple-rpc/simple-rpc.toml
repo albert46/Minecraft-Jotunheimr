@@ -1,0 +1,254 @@
+
+#General Config Section. See https://srpc.fdd-docs.com/introduction/
+[general]
+	#The Application ID of the Discord App to use
+	applicationID = "311914713464176640"
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Allow using local image files, as RPC icons
+	rpcImageServer = false
+	#The URL of the RPC image server that will be used for local images. Restart required when changed
+	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
+	#Internal Version Number. NO TOUCHY!
+	version = 26
+
+#The Game Loading event
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+
+	[[init.presence]]
+		type = "WATCHING"
+		description = "Building Jotulheim"
+		state = "Starting Yggsdrasill"
+		largeImageKey = ["jotul"]
+		largeImageText = "It's Jǫtunheimr {{game.version}}, "
+		smallImageKey = ["ygg"]
+		smallImageText = "Old Runes"
+		streamingActivityUrl = ""
+
+		[[init.presence.buttons]]
+			label = "Discord"
+			url = "https://www.discord.gg/cJYBNrA"
+
+#The Main Menu event
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+
+	[[main_menu.presence]]
+		type = "WATCHING"
+		description = "Remember: if I'm not answering, it's because I'm in Jǫtunheimr learning Nordic"
+		state = "Lobby"
+		largeImageKey = ["jotul"]
+		largeImageText = "It's Jǫtunheimr {{game.version}}"
+		smallImageKey = ["ygg"]
+		smallImageText = "{{game.mods}}"
+		streamingActivityUrl = ""
+
+		[[main_menu.presence.buttons]]
+			label = "discord"
+			url = "https://www.discord.gg/cJYBNrA"
+
+#The Server List event
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+
+	[[server_list.presence]]
+		type = "WATCHING"
+		description = "Yggsadrill"
+		state = "Lobby Chossing"
+		largeImageKey = ["jotul"]
+		largeImageText = "It's Jǫtunheimr {{game.version}}"
+		smallImageKey = ["ygg"]
+		smallImageText = "Old Runes"
+		streamingActivityUrl = ""
+
+		[[server_list.presence.buttons]]
+			label = "Discord"
+			url = "https://www.discord.gg/cJYBNrA"
+
+#The Realms Screen event
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = false
+
+	[[realms_list.presence]]
+		type = "PLAYING"
+		description = "{{player.name}} is looking for a Realm"
+		state = "Browsing Realms"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Join Game Event
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+
+	[[join_game.presence]]
+		type = "WATCHING"
+		description = "{{player.name}} "
+		state = "Freezing your mind...."
+		largeImageKey = ["jotul"]
+		largeImageText = "It's Jǫtunheimr {{game.version}}"
+		smallImageKey = ["ygg"]
+		smallImageText = "{{game.mods}}"
+		streamingActivityUrl = ""
+
+		[[join_game.presence.buttons]]
+			label = "Discord"
+			url = "https://www.discord.gg/cJYBNrA"
+
+#The Single Player Event
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+
+	[[single_player.presence]]
+		type = "WATCHING"
+		description = "Currently at {{world.name}}"
+		state = "Playing lonely God"
+		largeImageKey = ["jotul"]
+		largeImageText = "It's Jǫtunheimr {{game.version}}"
+		smallImageKey = ["ygg"]
+		smallImageText = "Old Runes"
+		streamingActivityUrl = ""
+
+		[[single_player.presence.buttons]]
+			label = "Discord"
+			url = "https://www.discord.gg/cJYBNrA"
+
+#The Multi Player Event
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+
+	[[multi_player.presence]]
+		type = "WATCHING"
+		description = "Playing on {{server.name}} with {{server.players.count}} players"
+		state = "The gods watch over you"
+		largeImageKey = ["jotul"]
+		largeImageText = "It's Jǫtunheimr {{game.version}}"
+		smallImageKey = ["jotul"]
+		smallImageText = "Old Runes"
+		streamingActivityUrl = ""
+
+		[[multi_player.presence.buttons]]
+			label = "Discord"
+			url = "https://www.discord.gg/cJYBNrA"
+
+#The Realms Game Event
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+
+	[[realms.presence]]
+		type = "PLAYING"
+		description = "Playing on {{realm.name}}"
+		state = "Playing on a Realm"
+		largeImageKey = ["mclogonew"]
+		largeImageText = "It's Minecraft {{game.version}}, but modded"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+#The Paused Event
+[paused]
+	#Enable/Disable the Pause Event
+	enabled = true
+
+	[[paused.presence]]
+		type = "LISTENING"
+		description = "Heavy snowfall as everything comes to a standstill."
+		state = "The gods are watching you...."
+		largeImageKey = ["jotul"]
+		largeImageText = "It's Jǫtunheimr {{game.version}}"
+		smallImageKey = ["ygg"]
+		smallImageText = "%mods%"
+		streamingActivityUrl = ""
+
+		[[paused.presence.buttons]]
+			label = "Discord"
+			url = "https://www.discord.gg/cJYBNrA"
+
+#Fallback event for disabled events
+[generic]
+
+	[[generic.presence]]
+		type = "PLAYING"
+		description = "Playing Jǫtunheimr"
+		state = "Freeze World"
+		largeImageKey = ["jotul"]
+		largeImageText = "It's Jǫtunheimr {{game.version}}"
+		smallImageKey = ["ygg"]
+		smallImageText = "Old Runes"
+		streamingActivityUrl = ""
+
+		[[generic.presence.buttons]]
+			label = "Discord"
+			url = "https://www.discord.gg/cJYBNrA"
+
+#Custom Config Variables that you can use
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+#Dimension Information Overrides
+[dimension_overrides]
+	#Allows you to override the displayed values for dimensions
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The Overworld"
+			state = ""
+			largeImageKey = ["overworld"]
+			largeImageText = "In the Overworld"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The Nether"
+			state = ""
+			largeImageKey = ["nether"]
+			largeImageText = "In the Nether"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The End"
+			state = ""
+			largeImageKey = ["end"]
+			largeImageText = "In the End"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
