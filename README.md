@@ -1,5 +1,3 @@
-# Minecraft-Jotunheimr
-
 # Jotunheimr Backup
 
 Personal backup of the [Jotunheimr](https://modrinth.com/modpack/jotunheimr) modpack.
