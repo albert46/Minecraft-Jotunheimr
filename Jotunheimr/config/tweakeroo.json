@@ -330,7 +330,7 @@
   "Internal": {
     "darknessScaleValueOriginal": 1.0,
     "flySpeedPreset": 0,
-    "gammaValueOriginal": 1.0,
+    "gammaValueOriginal": 0.5,
     "hotbarScrollCurrentRow": 3,
     "slimeBlockSlipperinessOriginal": 0.800000011920929,
     "shulkerMaxStackSize": 64
@@ -862,7 +862,7 @@
     "tweakFlySpeed": false,
     "tweakFlexibleBlockPlacement": true,
     "tweakFreeCamera": false,
-    "tweakGammaOverride": false,
+    "tweakGammaOverride": true,
     "tweakHandRestock": false,
     "tweakHangableEntityBypass": false,
     "tweakHoldAttack": false,
