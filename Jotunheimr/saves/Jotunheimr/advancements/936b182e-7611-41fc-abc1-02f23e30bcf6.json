@@ -653,12 +653,6 @@
     },
     "done": true
   },
-  "pk_waystones:events/once/prepare": {
-    "criteria": {
-      "requirement": "2025-10-15 22:30:56 +0200"
-    },
-    "done": true
-  },
   "graves:check_death_markers_later_in_tick": {
     "criteria": {
       "tick": "2025-10-15 22:30:56 +0200"
@@ -1272,12 +1266,6 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/crimson_slab": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
-  "pk_waystones:recipes/waystone/nether": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
     },
@@ -2411,12 +2399,6 @@
     },
     "done": true
   },
-  "pk_waystones:recipes/waystone/andesite": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
@@ -2676,12 +2658,6 @@
     "done": true
   },
   "minecraft:recipes/tools/brown_bundle": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
-  "pk_waystones:recipes/waystone/prismarine": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
     },
@@ -3641,12 +3617,6 @@
     },
     "done": true
   },
-  "pk_waystones:recipes/waystone/copper": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/bamboo_shelf": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
@@ -3732,12 +3702,6 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
-  "pk_waystones:recipes/waystone/sand": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
     },
@@ -5201,12 +5165,6 @@
     },
     "done": true
   },
-  "pk_waystones:recipes/waystone/tuff": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/host_armor_trim_smithing_template": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
@@ -5592,12 +5550,6 @@
     "done": true
   },
   "minecraft:recipes/redstone/bamboo_trapdoor": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
-  "pk_waystones:recipes/waystone/mossy": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
     },
@@ -6702,12 +6654,6 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/purpur_block": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
-  "pk_waystones:recipes/waystone/deepslate": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
     },
