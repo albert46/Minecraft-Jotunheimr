@@ -39,6 +39,12 @@
         "keys": ""
       }
     },
+    "freeCameraShowStatusBars": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
     "handRestockPre": true,
     "hangableEntityBypassInverse": false,
     "inventoryPreviewVillagerBGColor": false,
@@ -239,6 +245,18 @@
     "freeCameraPlayerMovement": {
       "keys": ""
     },
+    "freeCameraPresetAdd": {
+      "keys": ""
+    },
+    "freeCameraPresetCycle": {
+      "keys": ""
+    },
+    "freeCameraPresetDelete": {
+      "keys": ""
+    },
+    "freeCameraPresetDeleteAll": {
+      "keys": ""
+    },
     "hotbarScroll": {
       "keys": ""
     },
@@ -262,6 +280,9 @@
     },
     "openConfigGui": {
       "keys": "X,C"
+    },
+    "openCameraPresetEditorGui": {
+      "keys": "X,P"
     },
     "placementYMirror": {
       "keys": ""

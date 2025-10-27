@@ -98,6 +98,9 @@
     "spawnPlayerLazyOverlayColor": "#30D030D0",
     "spawnPlayerOuterOverlayColor": "#306900D2",
     "spawnRealEntityOverlayColor": "#3030FF20",
+    "spawnRealRedstoneOverlayColor": "#30F8D641",
+    "spawnRealLazyOverlayColor": "#30FF3020",
+    "spawnRealOuterOverlayColor": "#309D581A",
     "spawnableColumnHeightsOverlayColor": "#A0FF00FF",
     "textBackgroundColor": "#A0505050",
     "textColor": "#FFE0E0E0"
@@ -159,6 +162,8 @@
     "sortLinesReversed": false,
     "spawnPlayerOuterOverlayEnabled": false,
     "spawnPlayerRedstoneOverlayEnabled": false,
+    "spawnRealOuterOverlayEnabled": false,
+    "spawnRealRedstoneOverlayEnabled": false,
     "speedUnits": "mps",
     "structuresRenderThrough": false,
     "useCustomizedCoordinateFormat": true,
