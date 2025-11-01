@@ -1,11 +1,11 @@
-[12:44:43] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[12:44:43] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[12:44:43] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0-SNAPSHOT
-[12:44:43] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.api.client.impl.ClientAPI
-[12:44:43] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[12:44:43] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapIntegration
-[12:44:43] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[12:44:43] [Render thread/INFO] [?] Version: JourneyMap 1.21.9-6.0.0-beta.53, built with fabric 0.133.14+1.21.9
+[22:15:58] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[22:15:58] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[22:15:58] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0-SNAPSHOT
+[22:15:58] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.api.client.impl.ClientAPI
+[22:15:58] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[22:15:58] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapIntegration
+[22:15:59] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:16:00] [Render thread/INFO] [?] Version: JourneyMap 1.21.9-6.0.0-beta.53, built with fabric 0.133.14+1.21.9
 fabric: 0.17.2
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 SP: : Jotunheimr : 
@@ -25,14 +25,14 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.0-beta.53, autoRemoveDeathpointDistance=2, showPlayers=false, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, displayOnLocatorBar=false, renderWaypointsWorld=true, showDeleteConfirmation=true, managerDimensionFocus=false, fullscreenDoubleClickToCreate=true, minDistance=4, coordinatesFormat=XZY, boldLabel=false, disableShare=false, showDeathpointlabel=true, textureSmall=true, useActionsButton=false, beaconEnabled=true, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, maxDistance=0, ignoreRenderDistance=false, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/execute in {dim} run tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.0-beta.53, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.0-beta.53, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=null, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=jm.minimap.shape_circle, mapBiome=true, caveShader=jm.common.map_filter.default, mipmapLevels=5, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, cachePlayerData=1000, splashViewed=6.0.0-beta.53, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3100, ignoreHeightmaps=false, themeName=Purist, mapCaveLighting=true, renderDelay=2, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
-[12:44:43] [Render thread/ERROR] [JourneymapClient] Failed to register debug screen entry
+[22:16:00] [Render thread/ERROR] [JourneymapClient] Failed to register debug screen entry
 java.lang.NoSuchMethodException: net.minecraft.class_11631.register(net.minecraft.class_2960,net.minecraft.class_11632)
 	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2848) ~[?:?]
 	at knot/journeymap.client.JourneymapClient.initDebugScreen(JourneymapClient.java:181) ~[journeymap-fabric-1.21.9-6.0.0-beta.53.jar:?]
 	at knot/journeymap.client.JourneymapClient.init(JourneymapClient.java:162) ~[journeymap-fabric-1.21.9-6.0.0-beta.53.jar:?]
 	at knot/journeymap.client.JourneymapClientFabric.lambda$onInitializeClient$2(JourneymapClientFabric.java:30) ~[journeymap-fabric-1.21.9-6.0.0-beta.53.jar:?]
 	at knot/net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents.lambda$static$0(ClientLifecycleEvents.java:35) ~[fabric-lifecycle-events-v1-2.6.9+33df5e6e7d-662523230cee0e6b.jar:?]
-	at knot/net.minecraft.class_310.handler$bjh000$fabric-lifecycle-events-v1$onStart(class_310.java:8112) [client-intermediary.jar:?]
+	at knot/net.minecraft.class_310.handler$bji000$fabric-lifecycle-events-v1$onStart(class_310.java:8112) [client-intermediary.jar:?]
 	at knot/net.minecraft.class_310.method_1514(class_310.java:950) [client-intermediary.jar:?]
 	at knot/net.minecraft.client.main.Main.main(Main.java:250) [client-intermediary.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.3.jar:?]
@@ -42,44 +42,82 @@ java.lang.NoSuchMethodException: net.minecraft.class_11631.register(net.minecraf
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
 	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63) [theseus.jar:?]
 	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28) [theseus.jar:?]
-[12:44:43] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 877,01ms
-[12:44:47] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[12:44:47] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 4001,95ms
-[12:44:58] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: Default Palette
-[12:45:07] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[12:45:08] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
-[12:45:08] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
-[12:45:08] [Render thread/INFO] [WaypointGroupStore] Loaded 5 waypoint groups from disk.
-[12:45:08] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
-[12:45:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 2ms for: C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\colorpalette.json
-[12:45:08] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\data\sp\Jotunheimr\colorpalette.json
-[12:45:08] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\data\sp\Jotunheimr\overworld. Memory: 1398MB total, 795MB free 
-[12:45:08] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
-[12:45:08] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
-[14:48:01] [Netty Local Client IO #0/INFO] [WaypointHandler] Resetting Waypoints and Groups.
-[14:48:01] [Netty Local Client IO #0/INFO] [WaypointStore] Loaded 20 waypoints from disk.
-[14:48:01] [Netty Local Client IO #0/INFO] [WaypointGroupStore] Loaded 5 waypoint groups from disk.
-[14:48:02] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\data\mp\offline\minecraft:overworld
-[14:48:02] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
-[14:48:02] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
-[14:48:03] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[22:16:00] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 2029,54ms
+[22:16:04] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[22:16:04] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 4575,48ms
+[22:16:10] [JM-VersionCheck-1/ERROR] [VersionCheck] Could not check version URL https://forge.curseupdate.com/32274/journeymap
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:946) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at knot/journeymap.common.version.VersionCheck.makeGetRequest(VersionCheck.java:214) ~[journeymap-fabric-1.21.9-6.0.0-beta.53.jar:?]
+	at knot/journeymap.common.version.VersionCheck.lambda$checkVersion$0(VersionCheck.java:116) ~[journeymap-fabric-1.21.9-6.0.0-beta.53.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1781) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1379) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1781) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1379) ~[java.net.http:?]
+[22:16:17] [JM-VersionCheck-1/ERROR] [VersionCheck] Could not check version URL https://forge.curseupdate.com/32274/journeymap/references
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:946) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at knot/journeymap.common.version.VersionCheck.makeGetRequest(VersionCheck.java:214) ~[journeymap-fabric-1.21.9-6.0.0-beta.53.jar:?]
+	at knot/journeymap.common.version.VersionCheck.lambda$checkVersion$0(VersionCheck.java:117) ~[journeymap-fabric-1.21.9-6.0.0-beta.53.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:68) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1781) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1379) ~[java.net.http:?]
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at java.net.http/jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:69) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1781) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1379) ~[java.net.http:?]
+[22:16:25] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: Default Palette
+[22:16:39] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:16:39] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[22:16:39] [Render thread/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[22:16:39] [Render thread/INFO] [WaypointGroupStore] Loaded 5 waypoint groups from disk.
+[22:16:39] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[22:16:39] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 1ms for: C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\colorpalette.json
+[22:16:39] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 4ms for: C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\data\sp\Jotunheimr\colorpalette.json
+[22:16:39] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\data\sp\Jotunheimr\overworld. Memory: 1180MB total, 376MB free 
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[22:16:40] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[22:16:42] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[22:37:33] [Netty Local Client IO #0/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[22:37:33] [Netty Local Client IO #0/INFO] [WaypointStore] Loaded 20 waypoints from disk.
+[22:37:33] [Netty Local Client IO #0/INFO] [WaypointGroupStore] Loaded 5 waypoint groups from disk.
+[22:37:35] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\data\mp\offline\minecraft:overworld
+[22:37:35] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[22:37:35] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[22:37:36] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images

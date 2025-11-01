@@ -131,9 +131,11 @@
   "history": {
     "accessibilityModMemory": false,
     "themesHash": -825076755,
-    "usersHash": [],
+    "usersHash": [
+      1362502862
+    ],
     "previewOverlay": true,
     "hintOverlayToggle": true,
-    "hintNarratorToggle": true
+    "hintNarratorToggle": false
   }
 }
