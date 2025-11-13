@@ -13,6 +13,10 @@
     "schematicOverlayColorWrongState": "#4CFF9010"
   },
   "Generic": {
+    "holdEasyPlace": false,
+    "disableHoldEasyPlaceFailTip": true,
+    "alwaysDisableFailTip": false,
+    "cacheTime": 2000,
     "areaSelectionsPerWorld": true,
     "changeSelectedCornerOnMove": true,
     "cloneAtOriginalPosition": false,
@@ -33,7 +37,7 @@
     "easyPlaceProtocolVersion": "auto",
     "easyPlaceSwingHand": true,
     "easyPlaceVanillaReach": false,
-    "enableDifferentBlocks": false,
+    "enableDifferentBlocks": true,
     "entityDataSync": {
       "enabled": false,
       "hotkey": {
@@ -95,6 +99,9 @@
     "toolItemComponents": "empty"
   },
   "Hotkeys": {
+    "holdEasyPlaceToggle": {
+      "keys": ""
+    },
     "addSelectionBox": {
       "keys": "M,A"
     },
