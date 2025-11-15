@@ -129,6 +129,12 @@
     "snapAimYawStep": 45.0,
     "structureBlockMaxSize": 128,
     "toolSwitchableSlots": "1-9",
+    "toolSwapAllowUnenchantedToBreak": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
     "toolSwitchIgnoredSlots": "",
     "toolSwapBetterEnchants": {
       "enabled": false,
@@ -883,7 +889,7 @@
     "tweakFlySpeed": false,
     "tweakFlexibleBlockPlacement": true,
     "tweakFreeCamera": false,
-    "tweakGammaOverride": true,
+    "tweakGammaOverride": false,
     "tweakHandRestock": false,
     "tweakHangableEntityBypass": false,
     "tweakHoldAttack": false,
