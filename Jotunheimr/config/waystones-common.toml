@@ -62,6 +62,9 @@ enableCooldowns = true
 # Set to false to simply disable all xp costs. See warpRequirements for more fine-grained control.
 enableCosts = true
 
+# Set to false to simply disable all durability costs. See warpRequirements for more fine-grained control.
+enableDurability = true
+
 # Set to true to enable warp modifier items for applying status effects on teleports.
 enableModifiers = true
 
@@ -106,7 +109,7 @@ spawnInVillages = "regular"
 wildWaystoneStyle = "biome"
 
 # List of dimensions that wild waystones are allowed to spawn in. If left empty, all dimensions except those in wildWaystonesDimensionDenyList are used.
-wildWaystonesDimensionAllowList = [ "minecraft:overworld", "minecraft:the_nether", "minecraft:the_end" ]
+wildWaystonesDimensionAllowList = [ "minecraft:the_end", "minecraft:overworld", "minecraft:the_nether" ]
 
 # List of dimensions that wild waystones are not allowed to spawn in. Only used if wildWaystonesDimensionAllowList is empty.
 wildWaystonesDimensionDenyList = [  ]

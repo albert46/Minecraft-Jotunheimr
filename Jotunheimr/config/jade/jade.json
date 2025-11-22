@@ -136,6 +136,6 @@
     ],
     "previewOverlay": true,
     "hintOverlayToggle": true,
-    "hintNarratorToggle": false
+    "hintNarratorToggle": true
   }
 }

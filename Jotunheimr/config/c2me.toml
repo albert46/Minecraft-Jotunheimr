@@ -70,6 +70,13 @@ globalExecutorParallelism = "default"
 	# (Default: 2) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
+	# (Default: true) Whether to attempt to smooth out chunk sending rate
+	# 
+	# Due to the nature of chunk loading and generation, chunks reach full status in bursts,
+	# which can cause frame time stability if the server also delivers chunks in a bursty way
+	# This config attempts to smooth out the bursty stream of chunks to help frame time stability
+	# 
+	smoothChunkSendingRate = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"

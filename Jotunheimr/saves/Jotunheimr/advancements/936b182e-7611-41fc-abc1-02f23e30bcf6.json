@@ -8831,5 +8831,290 @@
     },
     "done": false
   },
+  "waystones:recipes/decorations/black_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/magenta_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_scroll": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/purple_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/light_blue_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/return_scroll": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/light_gray_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/brown_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_plate": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/lime_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_vines": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/orange_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/black_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/yellow_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/yellow_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2025-11-16 22:53:26 +0100",
+      "minecraft:zombie": "2025-11-16 22:53:26 +0100",
+      "minecraft:creeper": "2025-11-16 22:53:26 +0100",
+      "minecraft:zombie_villager": "2025-11-16 22:53:26 +0100"
+    },
+    "done": false
+  },
+  "waystones:recipes/decorations/lime_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/blue_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/white_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/dormant_shard": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_stone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_moss_blocks": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/end_stone_waystone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/red_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/cyan_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/purple_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/deepslate_waystone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/cyan_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/gray_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/green_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/brown_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/red_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/gray_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/blue_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/light_blue_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/magenta_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/green_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/orange_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/blackstone_waystone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/pink_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2025-11-16 22:53:26 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/blank_scroll": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/pink_sharestone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/sandy_waystone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/waystone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/light_gray_portstone": {
+    "criteria": {
+      "has_the_recipe": "2025-11-16 22:53:17 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 4554
 }
