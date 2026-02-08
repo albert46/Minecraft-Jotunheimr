@@ -26,12 +26,6 @@ threadPoolPriority = "default"
 globalExecutorParallelism = "default"
 
 [fixes]
-	# (Default: true) Whether to prevent early client ticks.
-	# 
-	# This avoids the player from falling through the world.
-	# Mitigates https://github.com/CaffeineMC/sodium/issues/3065
-	# 
-	preventEarlyClientMovementTicks = "default"
 	# (Default: true)  
 	#  Whether to disable the shutdown hook of log4j2 on dedicated servers.
 	#  Enabling this also makes the JVM exit when the dedicated server is considered fully shut down.

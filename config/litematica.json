@@ -23,6 +23,7 @@
     "commandDisableFeedback": true,
     "commandFillNoChunkClamp": false,
     "commandUseWorldEdit": false,
+    "commandUseStrict": true,
     "customSchematicBaseDirectoryEnabled": false,
     "debugHudMode": "default",
     "debugLogging": false,
@@ -32,7 +33,7 @@
     "easyPlaceClickAdjacent": false,
     "easyPlaceFirst": true,
     "easyPlaceHoldEnabled": true,
-    "easyPlaceMode": false,
+    "easyPlaceMode": true,
     "easyPlacePostRewrite": false,
     "easyPlaceSinglePlayerHandling": true,
     "easyPlaceSinglePlayerValidation": true,
@@ -47,7 +48,7 @@
       }
     },
     "entityDataSyncBackup": false,
-    "entityDataSyncCacheTimeout": 0.75,
+    "entityDataSyncCacheTimeout": 1.0,
     "entityDataSyncLoadNbt": true,
     "executeRequireHoldingTool": true,
     "fixChestMirror": true,
@@ -377,6 +378,12 @@
     "enableSchematicFluidRendering": true,
     "enableSchematicFakeLighting": true,
     "enableSchematicOverlay": true,
+    "enableSchematicOverlayCulling": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
     "ignoreExistingFluids": false,
     "ignoreExistingBlocks": false,
     "ignorableExistingBlocks": [],

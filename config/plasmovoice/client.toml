@@ -3,8 +3,9 @@ disable_crowdin = false
 check_for_updates = true
 
 [activations.4aec07ba-d109-3345-9a0a-92022a116cd0]
-toggle = false
 type = "VOICE"
+toggle = false
+
 [[key_bindings]]
 name = "key.plasmovoice.general.mute_microphone"
 any_context = false
@@ -18,9 +19,9 @@ type = "KEYSYM"
 4aec07ba-d109-3345-9a0a-92022a116cd0 = 32
 
 [addons.pv-addon-soundphysics]
+enabled = true
 mic_reverb = true
 mic_reverb_volume = 0.75
-enabled = true
 
 [voice]
 disabled = false
@@ -50,7 +51,7 @@ limiter_threshold = -6
 directional_sources_angle = 100
 stereo_sources_to_mono = false
 panning = true
-mute_player_on_direct = true
+source_types_overlap = "MUTE_PROXIMITY"
 camera_sound_listener = true
 exponential_volume_slider = true
 exponential_distance_gain = true

@@ -57,6 +57,7 @@
     "infoZombieConversion": 53,
     "infoHorseSpeed": 54,
     "infoHorseJump": 55,
+    "infoHorseMaxHealth": 57,
     "infoPandaGene": 56,
     "infoDolphinTreasure": 57,
     "infoEntityVariant": 58,
@@ -140,7 +141,7 @@
     "entityDataSyncBackup": false,
     "entityDataSyncBackupOpenToLan": false,
     "entityDataSyncCacheRefresh": 0.25,
-    "entityDataSyncCacheTimeout": 0.75,
+    "entityDataSyncCacheTimeout": 1.0,
     "lightLevelAutoHeight": false,
     "lightLevelCollisionCheck": false,
     "lightLevelColoredNumbers": true,
@@ -166,6 +167,7 @@
     "spawnRealRedstoneOverlayEnabled": false,
     "speedUnits": "mps",
     "structuresRenderThrough": false,
+    "structuresRenderOutlines": false,
     "useCustomizedCoordinateFormat": true,
     "useFontShadow": false,
     "useTextBackground": true,
@@ -304,6 +306,7 @@
     "infoZombieConversion": false,
     "infoHorseSpeed": false,
     "infoHorseJump": false,
+    "infoHorseMaxHealth": false,
     "infoPandaGene": false,
     "infoDolphinTreasure": false,
     "infoEntityVariant": false,
@@ -482,6 +485,9 @@
     "infoHorseJump": {
       "keys": ""
     },
+    "infoHorseMaxHealth": {
+      "keys": ""
+    },
     "infoPandaGene": {
       "keys": ""
     },
@@ -515,9 +521,33 @@
     "§6overlayVillagerInfo§r": false,
     "shapeRenderer": false,
     "debugChunkBorder": false,
-    "debugChunkInfo": false,
-    "debugChunkOcclusion": false,
-    "debugOctreeEnabled": false
+    "debugEntityHitboxes": false,
+    "debugBlockOutline": false,
+    "debugWaterEnabled": false,
+    "debugHeightmapEnabled": false,
+    "debugCollisionBoxEnabled": false,
+    "debugSupportingBlock": false,
+    "debugBlockLightEnabled": false,
+    "debugSkyLightEnabled": false,
+    "debugSkylightSectionsEnabled": false,
+    "debugChunkLoading": false,
+    "debugChunkSectionOctree": false,
+    "debugChunkSectionPaths": false,
+    "debugChunkSectionVisibility": false,
+    "§6debugDataMainToggle§r": false,
+    "§6debugPathfindingEnabled§r": false,
+    "§6debugNeighborsUpdateEnabled§r": false,
+    "§6debugRedstoneUpdateOrder§r": false,
+    "§6debugStructuresEnabled§r": false,
+    "§6debugVillageSectionsEnabled§r": false,
+    "§6debugBrainEnabled§r": false,
+    "§6debugPoiEnabled§r": false,
+    "§6debugBeeDataEnabled§r": false,
+    "§6debugRaidCenterEnabled§r": false,
+    "§6debugGoalSelectorEnabled§r": false,
+    "§6debugGameEventsEnabled§r": false,
+    "§6debugBreezeJumpEnabled§r": false,
+    "§6debugEntityBlockIntersectionEnabled§r": false
   },
   "RendererHotkeys": {
     "overlayBeaconRange": {
@@ -568,13 +598,85 @@
     "debugChunkBorder": {
       "keys": ""
     },
-    "debugChunkInfo": {
+    "debugEntityHitboxes": {
       "keys": ""
     },
-    "debugChunkOcclusion": {
+    "debugBlockOutline": {
       "keys": ""
     },
-    "debugOctreeEnabled": {
+    "debugWaterEnabled": {
+      "keys": ""
+    },
+    "debugHeightmapEnabled": {
+      "keys": ""
+    },
+    "debugCollisionBoxEnabled": {
+      "keys": ""
+    },
+    "debugSupportingBlock": {
+      "keys": ""
+    },
+    "debugBlockLightEnabled": {
+      "keys": ""
+    },
+    "debugSkyLightEnabled": {
+      "keys": ""
+    },
+    "debugSkylightSectionsEnabled": {
+      "keys": ""
+    },
+    "debugChunkLoading": {
+      "keys": ""
+    },
+    "debugChunkSectionOctree": {
+      "keys": ""
+    },
+    "debugChunkSectionPaths": {
+      "keys": ""
+    },
+    "debugChunkSectionVisibility": {
+      "keys": ""
+    },
+    "§6debugDataMainToggle§r": {
+      "keys": ""
+    },
+    "§6debugPathfindingEnabled§r": {
+      "keys": ""
+    },
+    "§6debugNeighborsUpdateEnabled§r": {
+      "keys": ""
+    },
+    "§6debugRedstoneUpdateOrder§r": {
+      "keys": ""
+    },
+    "§6debugStructuresEnabled§r": {
+      "keys": ""
+    },
+    "§6debugVillageSectionsEnabled§r": {
+      "keys": ""
+    },
+    "§6debugBrainEnabled§r": {
+      "keys": ""
+    },
+    "§6debugPoiEnabled§r": {
+      "keys": ""
+    },
+    "§6debugBeeDataEnabled§r": {
+      "keys": ""
+    },
+    "§6debugRaidCenterEnabled§r": {
+      "keys": ""
+    },
+    "§6debugGoalSelectorEnabled§r": {
+      "keys": ""
+    },
+    "§6debugGameEventsEnabled§r": {
+      "keys": ""
+    },
+    "§6debugBreezeJumpEnabled§r": {
+      "keys": ""
+    },
+    "§6debugEntityBlockIntersectionEnabled§r": {
       "keys": ""
     }
   },

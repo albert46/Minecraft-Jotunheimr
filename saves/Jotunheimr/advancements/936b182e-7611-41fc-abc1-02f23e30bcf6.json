@@ -8827,6 +8827,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:soul_sand_valley": "2026-02-07 21:42:56 +0100",
       "minecraft:basalt_deltas": "2025-10-16 00:28:31 +0200"
     },
     "done": false
@@ -8920,15 +8921,6 @@
       "has_the_recipe": "2025-11-16 22:53:17 +0100"
     },
     "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2025-11-16 22:53:26 +0100",
-      "minecraft:zombie": "2025-11-16 22:53:26 +0100",
-      "minecraft:creeper": "2025-11-16 22:53:26 +0100",
-      "minecraft:zombie_villager": "2025-11-16 22:53:26 +0100"
-    },
-    "done": false
   },
   "waystones:recipes/decorations/lime_portstone": {
     "criteria": {
@@ -9080,12 +9072,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:creeper": "2025-11-16 22:53:26 +0100"
-    },
-    "done": true
-  },
   "waystones:recipes/decorations/blank_scroll": {
     "criteria": {
       "has_the_recipe": "2025-11-16 22:53:17 +0100"
@@ -9116,5 +9102,21 @@
     },
     "done": true
   },
-  "DataVersion": 4554
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2025-11-16 22:53:26 +0100",
+      "minecraft:zombified_piglin": "2026-02-07 21:47:08 +0100",
+      "minecraft:zombie": "2025-11-16 22:53:26 +0100",
+      "minecraft:creeper": "2025-11-16 22:53:26 +0100",
+      "minecraft:zombie_villager": "2025-11-16 22:53:26 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2025-11-16 22:53:26 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4556
 }
