@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:cold_ocean": "2025-08-15 18:46:51 +0200",
       "minecraft:old_growth_birch_forest": "2025-08-15 18:37:00 +0200",
+      "minecraft:stony_peaks": "2026-02-08 16:46:17 +0100",
       "minecraft:forest": "2025-08-15 18:36:00 +0200",
       "minecraft:sparse_jungle": "2025-08-15 18:24:36 +0200",
       "minecraft:jungle": "2025-08-15 18:33:28 +0200",
@@ -115,5 +116,65 @@
     },
     "done": true
   },
-  "DataVersion": 4438
+  "vanillatweaks:bat_membranes": {
+    "criteria": {
+      "tick": "2026-02-08 16:46:17 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2026-02-08 16:46:17 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:tpa": {
+    "criteria": {
+      "tick": "2026-02-08 16:46:17 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:spawn": {
+    "criteria": {
+      "tick": "2026-02-08 16:46:17 +0100"
+    },
+    "done": true
+  },
+  "graves:check_death_markers_later_in_tick": {
+    "criteria": {
+      "tick": "2026-02-08 16:46:17 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:homes": {
+    "criteria": {
+      "tick": "2026-02-08 16:46:17 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:armored_elytra": {
+    "criteria": {
+      "tick": "2026-02-08 16:46:17 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:back": {
+    "criteria": {
+      "tick": "2026-02-08 16:46:17 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:elevators": {
+    "criteria": {
+      "tick": "2026-02-08 16:46:17 +0100"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2026-02-08 16:46:17 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }

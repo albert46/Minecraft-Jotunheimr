@@ -33,7 +33,7 @@
     "easyPlaceClickAdjacent": false,
     "easyPlaceFirst": true,
     "easyPlaceHoldEnabled": true,
-    "easyPlaceMode": true,
+    "easyPlaceMode": false,
     "easyPlacePostRewrite": false,
     "easyPlaceSinglePlayerHandling": true,
     "easyPlaceSinglePlayerValidation": true,

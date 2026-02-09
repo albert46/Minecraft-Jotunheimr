@@ -1,0 +1,13 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 177209,
+      "waystones:waystone_activated": 33,
+      "minecraft:total_world_time": 177209,
+      "minecraft:leave_game": 3,
+      "minecraft:play_time": 177209,
+      "minecraft:time_since_death": 177209
+    }
+  },
+  "DataVersion": 4671
+}

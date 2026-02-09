@@ -647,12 +647,6 @@
     },
     "done": true
   },
-  "vanillatweaks:unlock_all_recipes": {
-    "criteria": {
-      "tick": "2025-10-15 22:30:56 +0200"
-    },
-    "done": true
-  },
   "graves:check_death_markers_later_in_tick": {
     "criteria": {
       "tick": "2025-10-15 22:30:56 +0200"
@@ -1236,12 +1230,6 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/dye_lime_wool": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_weathered_copper_door_from_honeycomb": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
     },
@@ -1919,12 +1907,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_oxidized_copper_trapdoor_from_honeycomb": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/copper_chest": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
@@ -2184,12 +2166,6 @@
     "done": true
   },
   "minecraft:recipes/decorations/white_shulker_box": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_weathered_copper_bulb_from_honeycomb": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
     },
@@ -3467,12 +3443,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_oxidized_copper_door_from_honeycomb": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/weathered_cut_copper_slab_from_weathered_copper_stonecutting": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
@@ -3947,12 +3917,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_exposed_copper_bulb_from_honeycomb": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/dye_light_blue_carpet": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
@@ -4200,12 +4164,6 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/red_nether_brick_stairs": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_copper_trapdoor_from_honeycomb": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
     },
@@ -5033,12 +4991,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_weathered_copper_trapdoor_from_honeycomb": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/copper_ingot": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
@@ -5598,12 +5550,6 @@
     "done": true
   },
   "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_copper_bulb_from_honeycomb": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
     },
@@ -6677,12 +6623,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_copper_door_from_honeycomb": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
@@ -7494,12 +7434,6 @@
     "done": true
   },
   "minecraft:recipes/decorations/light_gray_banner": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_exposed_copper_door_from_honeycomb": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
     },
@@ -8363,12 +8297,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_oxidized_copper_bulb_from_honeycomb": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_exposed_chiseled_copper_from_waxed_exposed_cut_copper_stonecutting": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
@@ -8699,12 +8627,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_exposed_copper_trapdoor_from_honeycomb": {
-    "criteria": {
-      "has_the_recipe": "2025-10-15 22:30:58 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/honeycomb_block": {
     "criteria": {
       "has_the_recipe": "2025-10-15 22:30:58 +0200"
@@ -8828,6 +8750,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:soul_sand_valley": "2026-02-07 21:42:56 +0100",
+      "minecraft:nether_wastes": "2026-02-08 18:10:56 +0100",
       "minecraft:basalt_deltas": "2025-10-16 00:28:31 +0200"
     },
     "done": false
@@ -9106,6 +9029,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-11-16 22:53:26 +0100",
       "minecraft:zombified_piglin": "2026-02-07 21:47:08 +0100",
+      "minecraft:spider": "2026-02-08 19:46:21 +0100",
       "minecraft:zombie": "2025-11-16 22:53:26 +0100",
       "minecraft:creeper": "2025-11-16 22:53:26 +0100",
       "minecraft:zombie_villager": "2025-11-16 22:53:26 +0100"
@@ -9118,5 +9042,17 @@
     },
     "done": true
   },
-  "DataVersion": 4556
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-02-08 19:26:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_spear": {
+    "criteria": {
+      "has_cobblestone": "2026-02-08 19:26:18 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }
