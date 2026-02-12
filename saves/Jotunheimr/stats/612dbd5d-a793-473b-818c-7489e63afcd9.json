@@ -1,12 +1,24 @@
 {
   "stats": {
+    "minecraft:picked_up": {
+      "minecraft:netherite_sword": 1
+    },
+    "minecraft:killed": {
+      "minecraft:zombified_piglin": 1
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 87910,
-      "waystones:waystone_activated": 22,
-      "minecraft:total_world_time": 87910,
-      "minecraft:leave_game": 2,
-      "minecraft:play_time": 87910,
-      "minecraft:time_since_death": 87910
+      "minecraft:time_since_rest": 92854,
+      "waystones:waystone_activated": 55,
+      "minecraft:total_world_time": 92884,
+      "minecraft:leave_game": 5,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 92854,
+      "minecraft:damage_dealt": 302,
+      "minecraft:player_kills": 1,
+      "minecraft:time_since_death": 92854
+    },
+    "minecraft:used": {
+      "minecraft:netherite_sword": 4
     }
   },
   "DataVersion": 4671

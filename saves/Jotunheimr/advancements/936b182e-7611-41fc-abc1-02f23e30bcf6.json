@@ -13,6 +13,7 @@
       "minecraft:ice_spikes": "2025-07-05 00:46:40 +0200",
       "minecraft:frozen_ocean": "2025-07-05 01:10:46 +0200",
       "minecraft:eroded_badlands": "2025-10-15 23:56:38 +0200",
+      "minecraft:desert": "2026-02-09 18:01:51 +0100",
       "minecraft:frozen_river": "2025-07-05 01:10:43 +0200",
       "minecraft:deep_frozen_ocean": "2025-07-05 01:13:48 +0200",
       "minecraft:birch_forest": "2025-07-05 01:18:24 +0200",
@@ -9051,6 +9052,12 @@
   "minecraft:recipes/combat/stone_spear": {
     "criteria": {
       "has_cobblestone": "2026-02-08 19:26:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2026-02-09 17:37:34 +0100"
     },
     "done": true
   },
