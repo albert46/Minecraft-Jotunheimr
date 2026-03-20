@@ -1,0 +1,398 @@
+[22:44:05] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[22:44:05] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[22:44:05] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0-SNAPSHOT
+[22:44:05] [Render thread/INFO] [PluginHelper] Initialized IJourneyMapPlugin as:net.blay09.mods.waystones.compat.JourneyMapIntegration: for:waystones
+[22:44:05] [Render thread/INFO] [PluginHelper] Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[22:44:05] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:44:05] [Render thread/INFO] [PropertiesBase] core (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.core.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] core (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.core.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] fullmap (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.fullmap.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] fullmap (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.fullmap.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] minimap (Initialized) Setting config file to version "6.0.0-beta.58": journeymap.minimap.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] minimap2 (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.minimap2.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] minimap2 (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.minimap2.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] topo (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.topo.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] topo (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.topo.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] webmap (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.webmap.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] webmap (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.webmap.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] waypoint (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.waypoint.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] waypoint (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.waypoint.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] rendering (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.rendering.config
+[22:44:06] [Render thread/INFO] [PropertiesBase] rendering (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.rendering.config
+[22:44:06] [Render thread/INFO] [?] Version: JourneyMap 1.21.11-6.0.0-beta.58, built with fabric 0.139.4+1.21.11
+fabric: 0.18.2
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
+SP: : Jotunheimr : 
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=6.0.0-beta.58, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.top, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_topright, fontScale=1.0, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+MiniMapProperties{state=SavedOk, file=journeymap.minimap2.config, configVersion=6.0.0-beta.58, infoSlotTimeFormat=HH:mm:ss, zoomLevel=512, compassFontScale=1.0, infoSlotFontScale=1.0, terrainAlpha=100, showEntityNames=false, showPassiveNames=false, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=night, showCompass=true, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.top, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.top, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_topright, fontScale=1.0, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, caveLayer=4, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, mobDisplayScale=1.0, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=true, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.blank, showNoIconNames=true}
+FullMapProperties{state=SavedOk, file=journeymap.fullmap.config, configVersion=6.0.0-beta.58, zoomLevel=1024, minimalMode=false, showPlayers=true, waypointIconScale=1.0, showEntityNames=false, showPassiveNames=false, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, showPlayerNames=true, preferredMapType=day, showNpcNames=false, mobDisplay=jm.common.entity_display.dots_and_outlined_icons, showHostileNames=false, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.outlined_icons, showVillagerNames=false, mobDisplayScale=1.0, selfDisplayScale=1.0, showOffScreenPlayers=true, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showThemeButton=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, showAmbientNames=false, showAmbientCreatures=false, showTeamNames=true, showPetNames=false, fontScale=1.0, showNoIconNames=true}
+WaypointProperties{state=SavedOk, file=journeymap.waypoint.config, configVersion=6.0.0-beta.58, autoRemoveDeathpointDistance=2, showPlayers=false, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, autoRemoveDeathpoints=false, autoHideIcon=false, autoHideLabelAngle=5, displayOnLocatorBar=false, renderWaypointsWorld=true, showDeleteConfirmation=true, managerDimensionFocus=false, fullscreenDoubleClickToCreate=true, minDistance=4, coordinatesFormat=XZY, boldLabel=false, disableShare=false, showDeathpointlabel=true, textureSmall=true, useActionsButton=false, beaconEnabled=true, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, maxDistance=0, ignoreRenderDistance=false, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/execute in {dim} run tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
+WebMapProperties{state=SavedOk, file=journeymap.webmap.config, configVersion=6.0.0-beta.58, port=8080, enabled=false}
+CoreProperties{state=SavedOk, file=journeymap.core.config, configVersion=6.0.0-beta.58, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=null, announceMod=true, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=false, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=jm.minimap.shape_circle, mapBiome=true, caveShader=jm.common.map_filter.default, mipmapLevels=5, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, colorHostileLabel=#ff0000, mapBlendFoliage=true, topoMax=0, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, cachePlayerData=1000, splashViewed=6.0.0-beta.57, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3100, ignoreHeightmaps=false, themeName=Purist, mapCaveLighting=true, renderDelay=2, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
+[22:44:06] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 1595,88ms
+[22:44:10] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[22:44:11] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 4674,86ms
+[22:44:33] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[22:47:28] [Server thread/INFO] [PropertiesBase] global (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.server.global.config
+[22:47:28] [Server thread/INFO] [PropertiesBase] global (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.server.global.config
+[22:47:28] [Server thread/INFO] [PropertiesBase] default (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.server.default.config
+[22:47:28] [Server thread/INFO] [PropertiesBase] default (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.server.default.config
+[22:47:28] [Server thread/INFO] [PropertiesBase] minecraft~overworld (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.server.minecraft~overworld.config
+[22:47:28] [Server thread/INFO] [PropertiesBase] minecraft~overworld (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.server.minecraft~overworld.config
+[22:47:28] [Server thread/INFO] [PropertiesBase] minecraft~the_nether (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.server.minecraft~the_nether.config
+[22:47:28] [Server thread/INFO] [PropertiesBase] minecraft~the_nether (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.server.minecraft~the_nether.config
+[22:47:28] [Server thread/INFO] [PropertiesBase] minecraft~the_end (FileLoaded) Config file isn't current, has version "6.0.0-beta.57": journeymap.server.minecraft~the_end.config
+[22:47:28] [Server thread/INFO] [PropertiesBase] minecraft~the_end (Invalid) Setting config file to version "6.0.0-beta.58": journeymap.server.minecraft~the_end.config
+[22:47:41] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[22:47:41] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[22:47:41] [Render thread/INFO] [WaypointStore] Loaded 32 waypoints from disk.
+[22:47:41] [Render thread/INFO] [WaypointGroupStore] Loaded 5 waypoint groups from disk.
+[22:47:41] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[22:47:41] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 9ms for: C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\colorpalette.json
+[22:47:41] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 7ms for: C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\data\sp\Jotunheimr\colorpalette.json
+[22:47:41] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\data\sp\Jotunheimr\overworld. Memory: 1904MB total, 1050MB free 
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[22:47:43] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[22:48:14] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[22:48:42] [Render thread/WARN] [RegionTexture] Can't bind texture: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_10868.method_68427()" because "this.field_56974" is null
+	at knot//journeymap.client.texture.RegionTexture.bindRegionTexture(RegionTexture.java:87)
+	at knot//journeymap.client.texture.RegionTexture.bind(RegionTexture.java:64)
+	at knot//journeymap.client.render.map.RegionTile.updateRegionTexture(RegionTile.java:171)
+	at knot//journeymap.client.render.map.RegionTile.render(RegionTile.java:58)
+	at knot//journeymap.client.render.map.MapRenderer.lambda$render$4(MapRenderer.java:249)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:17)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:6)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.renderToTexture(AbstractMapPipRenderer.java:41)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.method_70905(AbstractMapPipRenderer.java:19)
+	at knot//net.minecraft.class_11239.method_70913(class_11239.java:57)
+	at knot//net.minecraft.class_11228.method_70888(class_11228.java:412)
+	at knot//net.minecraft.class_11228.method_71056(class_11228.java:405)
+	at knot//net.minecraft.class_11246.method_71065(class_11246.java:209)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:244)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71074(class_11246.java:239)
+	at knot//net.minecraft.class_11246.method_71071(class_11246.java:205)
+	at knot//net.minecraft.class_11228.method_70893(class_11228.java:404)
+	at knot//net.minecraft.class_11228.method_71290(class_11228.java:203)
+	at knot//net.minecraft.class_11228.method_70890(class_11228.java:168)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:585)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1393)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:966)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:48:42] [Render thread/WARN] [RegionTexture] Can't bind texture: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_10868.method_68427()" because "this.field_56974" is null
+	at knot//journeymap.client.texture.RegionTexture.bindRegionTexture(RegionTexture.java:87)
+	at knot//journeymap.client.texture.RegionTexture.bind(RegionTexture.java:64)
+	at knot//journeymap.client.render.map.RegionTile.updateRegionTexture(RegionTile.java:171)
+	at knot//journeymap.client.render.map.RegionTile.render(RegionTile.java:58)
+	at knot//journeymap.client.render.map.MapRenderer.lambda$render$4(MapRenderer.java:249)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:17)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:6)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.renderToTexture(AbstractMapPipRenderer.java:41)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.method_70905(AbstractMapPipRenderer.java:19)
+	at knot//net.minecraft.class_11239.method_70913(class_11239.java:57)
+	at knot//net.minecraft.class_11228.method_70888(class_11228.java:412)
+	at knot//net.minecraft.class_11228.method_71056(class_11228.java:405)
+	at knot//net.minecraft.class_11246.method_71065(class_11246.java:209)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:244)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71074(class_11246.java:239)
+	at knot//net.minecraft.class_11246.method_71071(class_11246.java:205)
+	at knot//net.minecraft.class_11228.method_70893(class_11228.java:404)
+	at knot//net.minecraft.class_11228.method_71290(class_11228.java:203)
+	at knot//net.minecraft.class_11228.method_70890(class_11228.java:168)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:585)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1393)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:966)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:48:42] [Render thread/WARN] [RegionTexture] Can't bind texture: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_10868.method_68427()" because "this.field_56974" is null
+	at knot//journeymap.client.texture.RegionTexture.bindRegionTexture(RegionTexture.java:87)
+	at knot//journeymap.client.texture.RegionTexture.bind(RegionTexture.java:64)
+	at knot//journeymap.client.render.map.RegionTile.updateRegionTexture(RegionTile.java:171)
+	at knot//journeymap.client.render.map.RegionTile.render(RegionTile.java:58)
+	at knot//journeymap.client.render.map.MapRenderer.lambda$render$4(MapRenderer.java:249)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:17)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:6)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.renderToTexture(AbstractMapPipRenderer.java:41)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.method_70905(AbstractMapPipRenderer.java:19)
+	at knot//net.minecraft.class_11239.method_70913(class_11239.java:57)
+	at knot//net.minecraft.class_11228.method_70888(class_11228.java:412)
+	at knot//net.minecraft.class_11228.method_71056(class_11228.java:405)
+	at knot//net.minecraft.class_11246.method_71065(class_11246.java:209)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:244)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71074(class_11246.java:239)
+	at knot//net.minecraft.class_11246.method_71071(class_11246.java:205)
+	at knot//net.minecraft.class_11228.method_70893(class_11228.java:404)
+	at knot//net.minecraft.class_11228.method_71290(class_11228.java:203)
+	at knot//net.minecraft.class_11228.method_70890(class_11228.java:168)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:585)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1393)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:966)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:48:42] [Render thread/WARN] [RegionTexture] Can't bind texture: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_10868.method_68427()" because "this.field_56974" is null
+	at knot//journeymap.client.texture.RegionTexture.bindRegionTexture(RegionTexture.java:87)
+	at knot//journeymap.client.texture.RegionTexture.bind(RegionTexture.java:64)
+	at knot//journeymap.client.render.map.RegionTile.updateRegionTexture(RegionTile.java:171)
+	at knot//journeymap.client.render.map.RegionTile.render(RegionTile.java:58)
+	at knot//journeymap.client.render.map.MapRenderer.lambda$render$4(MapRenderer.java:249)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:17)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:6)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.renderToTexture(AbstractMapPipRenderer.java:41)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.method_70905(AbstractMapPipRenderer.java:19)
+	at knot//net.minecraft.class_11239.method_70913(class_11239.java:57)
+	at knot//net.minecraft.class_11228.method_70888(class_11228.java:412)
+	at knot//net.minecraft.class_11228.method_71056(class_11228.java:405)
+	at knot//net.minecraft.class_11246.method_71065(class_11246.java:209)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:244)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71074(class_11246.java:239)
+	at knot//net.minecraft.class_11246.method_71071(class_11246.java:205)
+	at knot//net.minecraft.class_11228.method_70893(class_11228.java:404)
+	at knot//net.minecraft.class_11228.method_71290(class_11228.java:203)
+	at knot//net.minecraft.class_11228.method_70890(class_11228.java:168)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:585)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1393)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:966)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:48:42] [Render thread/WARN] [RegionTexture] Can't bind texture: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_10868.method_68427()" because "this.field_56974" is null
+	at knot//journeymap.client.texture.RegionTexture.bindRegionTexture(RegionTexture.java:87)
+	at knot//journeymap.client.texture.RegionTexture.bind(RegionTexture.java:64)
+	at knot//journeymap.client.render.map.RegionTile.updateRegionTexture(RegionTile.java:171)
+	at knot//journeymap.client.render.map.RegionTile.render(RegionTile.java:58)
+	at knot//journeymap.client.render.map.MapRenderer.lambda$render$4(MapRenderer.java:249)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:17)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:6)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.renderToTexture(AbstractMapPipRenderer.java:41)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.method_70905(AbstractMapPipRenderer.java:19)
+	at knot//net.minecraft.class_11239.method_70913(class_11239.java:57)
+	at knot//net.minecraft.class_11228.method_70888(class_11228.java:412)
+	at knot//net.minecraft.class_11228.method_71056(class_11228.java:405)
+	at knot//net.minecraft.class_11246.method_71065(class_11246.java:209)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:244)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71074(class_11246.java:239)
+	at knot//net.minecraft.class_11246.method_71071(class_11246.java:205)
+	at knot//net.minecraft.class_11228.method_70893(class_11228.java:404)
+	at knot//net.minecraft.class_11228.method_71290(class_11228.java:203)
+	at knot//net.minecraft.class_11228.method_70890(class_11228.java:168)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:585)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1393)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:966)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:48:42] [Render thread/WARN] [RegionTexture] Can't bind texture: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_10868.method_68427()" because "this.field_56974" is null
+	at knot//journeymap.client.texture.RegionTexture.bindRegionTexture(RegionTexture.java:87)
+	at knot//journeymap.client.texture.RegionTexture.bind(RegionTexture.java:64)
+	at knot//journeymap.client.render.map.RegionTile.updateRegionTexture(RegionTile.java:171)
+	at knot//journeymap.client.render.map.RegionTile.render(RegionTile.java:58)
+	at knot//journeymap.client.render.map.MapRenderer.lambda$render$4(MapRenderer.java:249)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:17)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:6)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.renderToTexture(AbstractMapPipRenderer.java:41)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.method_70905(AbstractMapPipRenderer.java:19)
+	at knot//net.minecraft.class_11239.method_70913(class_11239.java:57)
+	at knot//net.minecraft.class_11228.method_70888(class_11228.java:412)
+	at knot//net.minecraft.class_11228.method_71056(class_11228.java:405)
+	at knot//net.minecraft.class_11246.method_71065(class_11246.java:209)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:244)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71074(class_11246.java:239)
+	at knot//net.minecraft.class_11246.method_71071(class_11246.java:205)
+	at knot//net.minecraft.class_11228.method_70893(class_11228.java:404)
+	at knot//net.minecraft.class_11228.method_71290(class_11228.java:203)
+	at knot//net.minecraft.class_11228.method_70890(class_11228.java:168)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:585)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1393)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:966)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:51:35] [Render thread/WARN] [RegionTexture] Can't bind texture: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_10868.method_68427()" because "this.field_56974" is null
+	at knot//journeymap.client.texture.RegionTexture.bindRegionTexture(RegionTexture.java:87)
+	at knot//journeymap.client.texture.RegionTexture.bind(RegionTexture.java:64)
+	at knot//journeymap.client.render.map.RegionTile.updateRegionTexture(RegionTile.java:171)
+	at knot//journeymap.client.render.map.RegionTile.render(RegionTile.java:58)
+	at knot//journeymap.client.render.map.MapRenderer.lambda$render$4(MapRenderer.java:249)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:17)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:6)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.renderToTexture(AbstractMapPipRenderer.java:41)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.method_70905(AbstractMapPipRenderer.java:19)
+	at knot//net.minecraft.class_11239.method_70913(class_11239.java:57)
+	at knot//net.minecraft.class_11228.method_70888(class_11228.java:412)
+	at knot//net.minecraft.class_11228.method_71056(class_11228.java:405)
+	at knot//net.minecraft.class_11246.method_71065(class_11246.java:209)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:244)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71074(class_11246.java:239)
+	at knot//net.minecraft.class_11246.method_71071(class_11246.java:205)
+	at knot//net.minecraft.class_11228.method_70893(class_11228.java:404)
+	at knot//net.minecraft.class_11228.method_71290(class_11228.java:203)
+	at knot//net.minecraft.class_11228.method_70890(class_11228.java:168)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:585)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1393)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:966)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:53:15] [Render thread/WARN] [RegionTexture] Can't bind texture: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_10868.method_68427()" because "this.field_56974" is null
+	at knot//journeymap.client.texture.RegionTexture.bindRegionTexture(RegionTexture.java:87)
+	at knot//journeymap.client.texture.RegionTexture.bind(RegionTexture.java:64)
+	at knot//journeymap.client.render.map.RegionTile.updateRegionTexture(RegionTile.java:171)
+	at knot//journeymap.client.render.map.RegionTile.render(RegionTile.java:58)
+	at knot//journeymap.client.render.map.MapRenderer.lambda$render$4(MapRenderer.java:249)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:17)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:6)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.renderToTexture(AbstractMapPipRenderer.java:41)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.method_70905(AbstractMapPipRenderer.java:19)
+	at knot//net.minecraft.class_11239.method_70913(class_11239.java:57)
+	at knot//net.minecraft.class_11228.method_70888(class_11228.java:412)
+	at knot//net.minecraft.class_11228.method_71056(class_11228.java:405)
+	at knot//net.minecraft.class_11246.method_71065(class_11246.java:209)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:244)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71074(class_11246.java:239)
+	at knot//net.minecraft.class_11246.method_71071(class_11246.java:205)
+	at knot//net.minecraft.class_11228.method_70893(class_11228.java:404)
+	at knot//net.minecraft.class_11228.method_71290(class_11228.java:203)
+	at knot//net.minecraft.class_11228.method_70890(class_11228.java:168)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:585)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1393)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:966)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:55:27] [Render thread/WARN] [RegionTexture] Can't bind texture: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_10868.method_68427()" because "this.field_56974" is null
+	at knot//journeymap.client.texture.RegionTexture.bindRegionTexture(RegionTexture.java:87)
+	at knot//journeymap.client.texture.RegionTexture.bind(RegionTexture.java:64)
+	at knot//journeymap.client.render.map.RegionTile.updateRegionTexture(RegionTile.java:171)
+	at knot//journeymap.client.render.map.RegionTile.render(RegionTile.java:58)
+	at knot//journeymap.client.render.map.MapRenderer.lambda$render$4(MapRenderer.java:249)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:17)
+	at knot//journeymap.client.render.pip.RegionTilePipRenderer.render(RegionTilePipRenderer.java:6)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.renderToTexture(AbstractMapPipRenderer.java:41)
+	at knot//journeymap.client.render.pip.AbstractMapPipRenderer.method_70905(AbstractMapPipRenderer.java:19)
+	at knot//net.minecraft.class_11239.method_70913(class_11239.java:57)
+	at knot//net.minecraft.class_11228.method_70888(class_11228.java:412)
+	at knot//net.minecraft.class_11228.method_71056(class_11228.java:405)
+	at knot//net.minecraft.class_11246.method_71065(class_11246.java:209)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:244)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71061(class_11246.java:246)
+	at knot//net.minecraft.class_11246.method_71074(class_11246.java:239)
+	at knot//net.minecraft.class_11246.method_71071(class_11246.java:205)
+	at knot//net.minecraft.class_11228.method_70893(class_11228.java:404)
+	at knot//net.minecraft.class_11228.method_71290(class_11228.java:203)
+	at knot//net.minecraft.class_11228.method_70890(class_11228.java:168)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:585)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1393)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:966)
+	at knot//net.minecraft.client.main.Main.main(Main.java:250)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+[22:55:32] [Netty Local IO #1/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[22:55:32] [Netty Local IO #1/INFO] [WaypointStore] Loaded 32 waypoints from disk.
+[22:55:32] [Netty Local IO #1/INFO] [WaypointGroupStore] Loaded 5 waypoint groups from disk.
+[22:55:39] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\data\mp\offline\minecraft:overworld
+[22:55:40] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[22:55:40] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[22:55:41] [Render thread/WARN] [ImageHolder] Couldn't get write lock for file: java.util.concurrent.locks.ReentrantLock@49a02b8e[Locked by thread IO-Worker-25] for ImageHolder{mapType=overworld|day|_, texture null=false, texture bound=true, textureId=1169, dirty=false, imagePath=C:\Users\Albert\AppData\Roaming\ModrinthApp\profiles\Jotunheimr\journeymap\data\sp\Jotunheimr\overworld\day\0,2.png}
+[22:55:47] [Render thread/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images

@@ -80,6 +80,11 @@ globalExecutorParallelism = "default"
 	# Requires Fabric API (currently available)
 	# 
 	enableExtRenderDistanceProtocol = "default"
+	# (Default: true) Whether to enable no-tick view distance
+	# 
+	# Faster alternative implementation of simulation distance, and additionally support up to 65530 view distance
+	# 
+	enabled = "default"
 
 [ioSystem]
 	# (Default: false) EXPERIMENTAL FEATURE

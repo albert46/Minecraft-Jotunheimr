@@ -1,27 +1,27 @@
 {
   "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 219665,
+      "minecraft:walk_one_cm": 814,
+      "minecraft:leave_game": 8,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 2064,
+      "minecraft:play_time": 219665,
+      "minecraft:damage_dealt": 79,
+      "minecraft:jump": 6,
+      "minecraft:time_since_death": 219665,
+      "waystones:waystone_activated": 37,
+      "minecraft:total_world_time": 221115,
+      "minecraft:fly_one_cm": 282510,
+      "minecraft:walk_on_water_one_cm": 2150,
+      "minecraft:crouch_one_cm": 86,
+      "minecraft:sneak_time": 1007
+    },
     "minecraft:used": {
       "minecraft:beef": 2
     },
     "minecraft:picked_up": {
       "minecraft:beef": 2
-    },
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 213731,
-      "minecraft:walk_one_cm": 814,
-      "minecraft:leave_game": 7,
-      "minecraft:mob_kills": 1,
-      "minecraft:walk_under_water_one_cm": 2064,
-      "minecraft:play_time": 213731,
-      "minecraft:damage_dealt": 79,
-      "minecraft:jump": 6,
-      "minecraft:time_since_death": 213731,
-      "waystones:waystone_activated": 33,
-      "minecraft:total_world_time": 213751,
-      "minecraft:fly_one_cm": 282510,
-      "minecraft:walk_on_water_one_cm": 2150,
-      "minecraft:crouch_one_cm": 86,
-      "minecraft:sneak_time": 1007
     }
   },
   "DataVersion": 4671
